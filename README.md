@@ -1,2 +1,2 @@
-# T-PBO
+# Pratikum Tugas - PBO
 TUGAS
