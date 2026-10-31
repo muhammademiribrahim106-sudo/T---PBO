@@ -1,0 +1,18 @@
+package pratikumt5;
+public class PerbedaanPostDanPre {
+    public static void main(String[] args) {
+        System.out.println("=== Contoh Post-increment (i++) ===");
+        int i = 0;
+        while (i < 3) {
+            // Nilai 'i' dicetak sebelum dinaikkan oleh operator post-increment
+            System.out.println("Nilai i++ saat diprint : " + (i++));
+        }
+        System.out.println("\n=== Contoh Pre-increment (++i) ===");
+        int j = 0;
+        while (j < 3) {
+            // Nilai 'j' dinaikkan dulu menjadi j+1 baru dicetak
+            System.out.println("Nilai ++j saat diprint : " + (++j));
+        }
+    }
+}
+

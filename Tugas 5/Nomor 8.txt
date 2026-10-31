@@ -1,0 +1,11 @@
+package pratikumt5;
+public class PerulanganArray {
+    public static void main(String[] args) {
+        int[] nilai = {80, 85, 90, 75, 95};
+
+        System.out.println("Menampilkan semua elemen array dengan foreach:");
+        for (int item : nilai) {
+            System.out.println("Nilai: " + item);
+        }
+    }
+}

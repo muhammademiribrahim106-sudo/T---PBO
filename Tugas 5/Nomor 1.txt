@@ -1,0 +1,20 @@
+package pratikumt5;
+import java.util.Scanner;
+
+public class BilanganBesarDanTerkecil {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        
+        System.out.println("Masukkan 10 bilangan:");
+        for (int i = 1; i <= 10; i++) {
+            System.out.print("Bilangan ke-" + i + ": ");
+            int angka = scanner.nextInt();
+            if (angka > max) max = angka;
+            if (angka < min) min = angka;
+        }
+        System.out.println("\nBilangan Terbesar: " + max);
+        System.out.println("Bilangan Terkecil: " + min);
+    }
+}
